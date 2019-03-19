@@ -20,3 +20,4 @@ class jessClass {
 }
 
 const myClass = new jessClass();
+myClass.printPrivateString();
