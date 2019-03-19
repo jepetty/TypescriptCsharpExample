@@ -12,7 +12,7 @@ namespace TypescriptCsharpExample.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "Jessica is the best";
         }
     }
 }
