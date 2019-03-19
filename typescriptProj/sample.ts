@@ -18,3 +18,5 @@ class jessClass {
 
     private myPrivateString: string;
 }
+
+const myClass = new jessClass();
