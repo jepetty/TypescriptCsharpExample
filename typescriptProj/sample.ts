@@ -7,4 +7,10 @@ console.log(myThing);
 class jessClass {
     myString: number = 5;
     myMy: string = "how can i forget you?!";
+    
+    constructor() {
+        this.myPrivateString = 'shhh it\s a secret';
+    }
+
+    private myPrivateString: string;
 }
