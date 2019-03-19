@@ -14,6 +14,7 @@ namespace TypescriptCsharpExample
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Jessica is the best!");
             CreateWebHostBuilder(args).Build().Run();
         }
 
