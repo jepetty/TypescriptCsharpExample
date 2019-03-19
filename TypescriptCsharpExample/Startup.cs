@@ -43,6 +43,9 @@ namespace TypescriptCsharpExample
             {
                 app.UseDeveloperExceptionPage();
             }
+            else if (env.IsProduction()) {
+                Console.Error.WriteLine("Ahhh production!!");
+            }
             else
             {
                 app.UseExceptionHandler("/Error");
