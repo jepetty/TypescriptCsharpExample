@@ -12,5 +12,9 @@ class jessClass {
         this.myPrivateString = 'shhh it\s a secret';
     }
 
+    public printPrivateString() {
+        console.log(this.myPrivateString);
+    }
+
     private myPrivateString: string;
 }
