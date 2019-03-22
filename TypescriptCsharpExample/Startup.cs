@@ -24,6 +24,7 @@ namespace TypescriptCsharpExample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            Console.WriteLine("Jessica is trying hard");
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -41,6 +42,9 @@ namespace TypescriptCsharpExample
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+            else if (env.IsProduction()) {
+                Console.Error.WriteLine("Ahhh production!!");
             }
             else
             {
